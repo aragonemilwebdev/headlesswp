@@ -2,7 +2,7 @@ import { gql } from "@apollo/client";
 import client from "client";
 
 export default function Home(props) {
-  console.log("PROPS CHECK", props)
+  console.log("PROPS CHECKING", props)
   return <div>Next JS &amp; WordPress course.</div>;
 }
 
